@@ -1,3 +1,5 @@
+// https://github.com/espressif/esp-idf/blob/f91080637c054fa2b4107192719075d237ecc3ec/examples/peripherals/gpio/main/gpio_example_main.c#L8
+
 #define STEP 34
 #define DIR 35
 #define ENA 27
