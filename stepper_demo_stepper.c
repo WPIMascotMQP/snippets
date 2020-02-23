@@ -16,7 +16,7 @@ int motor_setpoints[5];
 
 bool stepLevelHigh = 0;
 
-int driveStepper(int motor, int positions);
+int driveStepper(int motor);
 void doStep(int step_pin);
 
 void setup() {
@@ -32,7 +32,7 @@ void loop() {
 
 }
 
-int driveStepper(int motor, int positions) {
+int driveStepper(int motor) {
 
   if (motor_positions[motor] > motor_setpoints[motor]){
     digitalWrite(DIR, LOW);
