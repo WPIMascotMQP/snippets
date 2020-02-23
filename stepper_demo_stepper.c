@@ -1,6 +1,6 @@
-#define STEP 25
-#define DIR 26
-#define ENA 24
+#define STEP 34
+#define DIR 35
+#define ENA 27
 
 #define NUM_STEPS 12800
 
